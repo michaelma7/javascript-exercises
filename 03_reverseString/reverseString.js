@@ -1,8 +1,9 @@
 const reverseString = function(text) {
     let separated = text.split("");
     let reversed = separated.reverse();
-    let reversedString = reversed.toString();
-    let completed = reversedString.replaceAll(",","");
+    let completed = reversed.join("");
+    // let reversedString = reversed.toString();
+    // let completed = reversedString.replaceAll(",","");
     return completed;
 };
 
